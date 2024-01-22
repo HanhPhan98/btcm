@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+.top-bar{
+	width: 100%;height: 50px;line-height: 50px
+}
+.top-bar a{
+	color: white
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 8px 20px;border-radius: 5px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	background-color: #056CB6;color: #FFC113
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6;padding-bottom: 0;padding-top: 0px
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color:#FFC113 
+}
+main{
+	width: 100%;min-height: 600px
+}
+footer{
+	width: 100%;min-height: 300px
+}
+.gach-chan{
+	border-bottom: 2px solid #FFC113 
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color:#FFC113  
+}
+.bottom-bar{
+	width: 100%;height: 50px;line-height: 50px
+}
+.aboutme a img {
+	width: 100%; 
+	min-height: 30px
+}
+.vechungtoi {
+	h4 {
+		padding: 25px 0 15px 0;
+		color: #0d6efd;
+	}
+	ul {
+		list-style: none;
+		padding: 10px 0;
+	}
+	img {
+		padding-right: 10px;
+	}
+	li span {
+		font-size: 14px;
+	}
+	input {
+		border-radius: 5px;
+		color: #FFF;
+		background-color: #0d6efd;
+		border: unset;
+		padding: 5px 10px;
+	}
+
+}
+
+.box1 a img{
+	width: 100%
+}
+.tit b:hover{
+	color: #F3FF00;
+}
+.main2 {
+	width: 100%;
+	background-image: url("../images/why.JPG");
+	background-size:cover;
+	background-repeat:no-repeat;
+
+	h4 {
+		color: #2F80ED;
+		padding: 20px 0;
+	}
+	h5 {
+		color: #2F80ED;
+		font-size: 16px;
+		font-weight: 300;
+	}
+	img {
+		width: 25px;
+		height: 25px;
+	}
+	.card {
+		border: unset;
+		background-color: unset;
+	}
+	.row-custom {
+		padding: 10px 0;
+	}
+}
+.feedback {
+	.group {
+		img {
+			width: 100%;
+		}
+
+		span {
+			position: relative;
+			background-color: grey;
+			padding: 2px;
+		}
+		.before {
+			top: 25px;
+			left: 0;
+		}
+		.after {
+			top: 25px;
+			left: calc(50% - 55px);
+		}
+	}
+	
+	.xemthem {
+		display: flex;
+		justify-content: center;
+		padding: 80px 0;
+
+		input {
+			border: unset;
+			background-color: #F2C94C;
+			color: #FFF;
+			padding: 10px 15px;
+			border-radius: 5px;
+			font-size: 20px;
+		}
+		
+	}
+
+}
+.dichvunoibat {
+	.row-custom {
+		justify-content: center;
+	}
+}
+
+.camnhan {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #F8FAF5;
+	padding: 20px 0;
+	margin-bottom: 20px;
+
+	h4,h5 {
+		color: #2F80ED;
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	.group {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		p {
+			text-align: center;
+			font-size: 14px;
+			font-style: italic;
+			width: 50%;
+			padding: 20px 0;
+		}
+
+
+		img {
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+		}
+	}
+}
+
+.tintucnhakhoa {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+	margin-bottom: 20px;
+
+	h4,h5 {
+		color: #2F80ED;
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	.row-custom {
+		justify-content: center;
+		padding: 15px;
+	}
+	.group {
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+		padding: 15px 10px;
+		h5 {
+			text-align: left;
+		}
+		p {
+			height: 50px;
+		}
+		span {
+			font-size: 12px;
+		}
+		.date {
+			color: red;
+			padding-right: 15px;
+		}
+	}
+}
+
+.contact-banner {
+	.banner {
+		img {
+			width: 100%;
+			height: 300px;
+		}
+
+		.banner-text {
+			position: absolute;
+			font-family: Roboto;
+			color: #FFF;
+			padding: 40px;
+
+			h5 {
+				padding: 10px 0;
+			}
+			input {
+				padding: 10px 15px;
+				background-color: #2F80ED;
+				border-radius: 5px;
+				border: unset;
+				font-size: 14px;
+				color: #FFF;
+				margin-top: 25px;
+			}
+		}
+	}
+}
+
+.contact-body {
+	padding: 30px 0;
+
+	.lienhe {
+		padding: 40px;
+		h4 {
+			color: #2F80ED;
+		}
+		p {
+			padding: 10px 0;
+		}
+		ul {
+			list-style: none;
+			padding: unset;
+			li {
+				font-size: 14px;
+			}
+		}
+	}
+
+	.hotro {
+		padding: 40px;
+		h4 {
+			color: #2F80ED;
+		}
+		p {
+			padding: 10px 0;
+		}
+		.form-hotro {
+			div {
+				input,textarea {
+				    padding: 0 25px;
+				    width: 100%;
+				    line-height: 30px;
+				    border: 1px solid #C4C4C4;
+				    border-radius: 5px;
+				    margin: 10px;
+				}
+			}
+		}
+		.contact-gui {
+			color: #FFF;
+			background-color: #2F80ED;
+			padding: 10px 20px;
+			border-radius: 5px;
+			margin: 10px;
+			border: unset;
+		}
+	}
+}
+
+.contact-map {
+	padding: 70px 5px;
+	iframe {
+		width: 100%;
+		height: 350px;
+	}
+}
